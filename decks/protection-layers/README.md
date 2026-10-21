@@ -3,7 +3,7 @@
 Protection layer hierarchy, SIS/SIL, pressure relief, flare systems, and fire protection.
 
 - **View in browser:** https://jsharpes-portfolio.netlify.app/slides/protection-layers/
-- **Download the .pptx (243 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Engineering-Protection-Layers-Safeguards.pptx
+- **Download the .pptx (235 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Engineering-Protection-Layers-Safeguards.pptx
 - **Author:** Joshua Sharpes, EIT (https://jsharpes-portfolio.netlify.app)
 - **Slides:** 15
 

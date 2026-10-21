@@ -3,9 +3,9 @@
 Corrosion fundamentals, localized corrosion, environmentally assisted cracking, high-temperature gaseous corrosion, and prevention by equipment type (Perry's 9th Ed.).
 
 - **View in browser:** https://jsharpes-portfolio.netlify.app/slides/corrosion/
-- **Download the .pptx (87 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Corrosion.pptx
+- **Download the .pptx (136 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Corrosion.pptx
 - **Author:** Joshua Sharpes, EIT (https://jsharpes-portfolio.netlify.app)
-- **Slides:** 34
+- **Slides:** 37
 
 ## How to use this file
 This is the slide-by-slide text of the deck, extracted so you (or your AI assistant) can search it, quote it, or ask questions about it without opening a large PowerPoint file. Figures, charts and equations drawn as images are not captured here; open the viewer or the .pptx for those. Narrated decks play their audio in PowerPoint Slide Show mode.
@@ -217,6 +217,7 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - Tank Design
 - Piping Design
 - Altering Process Environment
+- Barriers to Prevent Corrosion
 
 ### Slide 29: Corrosion Prevention: Introduction + Strategies
 - Carbon Steel is the default material w/ exceptions:
@@ -268,4 +269,52 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - Oxidizer Removal: for aqueous environments, use deaerators
 - Scale Enhancers: Molybdates charge to add scale to aqueous solutions where oxidizer can not be removed
   - Cooling tower open to atmosphere
+- Removal of Aggressive Compounds:
+  - Chloride removal from water for chloride SCC potential (Reverse Osmosis)
+  - Copper removal from water for pitting potential (aluminum foil contactor [ion exchange])
+- Process Changes
+  - Pressurization + Let-Down Valve for horizontal reboilers
+  - Close-loop exchanger next to cooling tower (CaCO3 )
+  - Sulphuric Acid concentration changes for SS-alloy applications
 - Corrosion Prevention
+
+### Slide 35: Barriers to Prevent Corrosion
+- Paints, Coatings, and Linings
+- Galvanizing
+- Metal Barriers
+- Loose Lining
+- Roll Bonding
+- Explosion Bonding
+- Weld Overlay
+- Nonmetallic Barriers
+- Glass-Lined Equipment
+- Rubber-Lined Equipment
+- Refractory-Lined Equipment
+
+### Slide 36: Paints, Coatings, and Linings
+- Paints/Coatings = Externally Applied
+  - Surface preparation through means of sand/grit blasting, water blasting, or hand/tool blasting is often required for necessary adhesion.
+    - Much more expensive to do this as maintenance compared to initial fabrication
+  - Primer is required. Additional layers are used for specialized/improved protection (urethane addition being most common)
+  - Common Types of Paints/Coatings:
+    - Epoxies: formed from resins and curing agents. Most wide-spread applications
+    - Urethanes: UV protection, glossy appearance retention, great weather resistance
+    - Inorganic Zinc: zinc w/ silicate binder – used to protect carbon steel from galvanic corrosion
+    - Epoxy Mastics: can be applied on existing coatings w/o new adherence
+    - Silicones: high-temp resistance; specialized application for furnace stacks
+    - Alkyls: poor chemical resistance but cheap and easy to apply (used for buildings)
+- Linings = Internally Applied
+  - Pinholes are inevitable; Linings should only be used as source of mild protection.
+- Corrosion Prevention: Barriers to Prevent Corrosion
+
+### Slide 37: Galvanizing
+- Galvanizing is the deposition of Zn particles onto a ferritic metal such as carbon steel
+- Serves Two Purposes:
+  - Film Buildup: Zn reacts w/ O2  to form ZnO film
+  - Galvanic Potential: Zn is more anodic than metal
+- Two Application Processes:
+  - Hot-Dip Galvanization: Metal is dipped in molten zinc
+  - Electro galvanization: Molten zinc plate electrodeposits ions onto surface
+- Difficult to surface prep and paint an already galvanized surface
+- Corrosion Prevention: Barriers to Prevent Corrosion
+- Hot-Galvanization

@@ -3,7 +3,7 @@
 Six absorber types with performance tradeoffs and design selection criteria.
 
 - **View in browser:** https://jsharpes-portfolio.netlify.app/slides/absorbers/
-- **Download the .pptx (253 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Absorbers.pptx
+- **Download the .pptx (252 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Absorbers.pptx
 - **Author:** Joshua Sharpes, EIT (https://jsharpes-portfolio.netlify.app)
 - **Slides:** 10
 
@@ -12,20 +12,26 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 
 ## Slide outline
 
-### Slide 1: Absorbers
+### Slide 1: Absorber Selection
 - Joshua Sharpes
+- Source: Encyclopedia of Chemical Processing Equipment
+- See Absorber Heuristics Presentation for more detailed Selection, Design, and Performance Evaluation of Absorbers
 
 ### Slide 2: Absorption Background
 - The escape of solute from solvent is endothermic (bond breaking) while the capture of solute in solvent is exothermic (bond forming)
   - The overall thermicity of the absorption process is dependent on which solute-solvent pairing contains stronger bonds
+- See Absorber Heuristics Presentation for more detailed Selection, Design, and Performance Evaluation of Absorbers
+  - Focuses mostly on Packed Towers (Wet Scrubbers)
 
 ### Slide 3: Types of Absorbers
 - Agitated Vessels
-- Bubble-plate Towers
+- Bubble-Cap Towers
 - Cooler Absorbers
 - Spray Towers
 - Packed Towers (Wet Scrubbers)
 - Venturi Scrubbers
+- Absorption Fundamentals
+- References, Referrals
 
 ### Slide 4: Agitated Vessels
 - Used primarily for batch processes as the continuous processes require multiple vessels for countercurrent operation

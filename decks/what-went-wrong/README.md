@@ -3,7 +3,7 @@
 26 incident case studies from Kletz with root cause lessons.
 
 - **View in browser:** https://jsharpes-portfolio.netlify.app/slides/what-went-wrong/
-- **Download the .pptx (461 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/What-Went-Wrong-Takeaways.pptx
+- **Download the .pptx (460 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/What-Went-Wrong-Takeaways.pptx
 - **Author:** Joshua Sharpes, EIT (https://jsharpes-portfolio.netlify.app)
 - **Slides:** 27
 
@@ -103,8 +103,9 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 
 ### Slide 16: Hydrogen Produced from Corrosion (16.2.a)
 - Sulfuric acid is highly corrosive which can result in the presence of hydrogen. An incident led to the accumulation of hydrogen in the vapor space of a non-vented tank which, when ignited, lifted the tank upward.
-- Welding weak point of tanks should fail at the base (vapor ignition)
-  - Higher hydrostatic pressure and continuous filling/emptying lead to high stresses in these regimes
+- The roof-to-shell weld should be the weak point (frangible roof) so an explosion vents upward. Here that weld was stronger than usual, so the tank split at the base and was thrown 15 m.
+  - The base carries the highest hydrostatic and fill/empty cycling stresses; a base failure also releases the contents
+- Fit a vent at the highest point so hydrogen cannot accumulate under the roof (Kletz Fig. 16-1)
 - Relieving conditions of tanks are not only assessed from abnormal static material conditions but also abnormal charging methods
   - Consider what happens when higher pressure compressor is used.
 

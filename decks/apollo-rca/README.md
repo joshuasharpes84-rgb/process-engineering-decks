@@ -3,9 +3,9 @@
 Four-step Apollo RCA: problem definition, reality chart, effective solutions, implement and track.
 
 - **View in browser:** https://jsharpes-portfolio.netlify.app/slides/apollo-rca/
-- **Download the .pptx (265 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Apollo-Root-Cause-Methodology.pptx
+- **Download the .pptx (261 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Apollo-Root-Cause-Methodology.pptx
 - **Author:** Joshua Sharpes, EIT (https://jsharpes-portfolio.netlify.app)
-- **Slides:** 13
+- **Slides:** 15
 
 ## How to use this file
 This is the slide-by-slide text of the deck, extracted so you (or your AI assistant) can search it, quote it, or ask questions about it without opening a large PowerPoint file. Figures, charts and equations drawn as images are not captured here; open the viewer or the .pptx for those. Narrated decks play their audio in PowerPoint Slide Show mode.
@@ -22,13 +22,13 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - Step 4: Implement and Track Solutions
 
 ### Slide 3: Glossary
-- Primary Effect: this is the problem
-  - Event-based Problems:
+- Primary Effect: the problem you want to prevent from recurring; the first point on the Reality Chart (Step 1 "What")
+  - Event-based Problems: a specific occurrence with a definable when and where, e.g. an incident, release or equipment failure
   - Rule-based Problems:
-- Action:
-- Condition:
-- Cause:
-- Evidence:
+- Action: a momentary cause, the trigger, that acts on an existing condition to produce the effect
+- Condition: a cause that exists over time (design, state, environment) and must be present for an action to cause the effect
+- Cause: an action or condition that exists in the same time and space as the effect; every effect has at least one of each (2nd and 4th C&E principles)
+- Evidence: sensed or inferred information that validates a causal relationship; intuition and emotion are not evidence
 
 ### Slide 4: Step 1: Define the Problem
 - This includes 4 main components:
@@ -56,7 +56,15 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - Fourth: an effect exists only if the causes exist in the same space and time frame
   - Yesterday’s cause is today’s effect for today’s cause:
 
-### Slide 7: Step 2: Create a Reality Chart
+### Slide 7: Cause & Effect Applications
+- This lineage of causation is applicable to more than just Apollo RCA:
+  - Fault Tree Analysis (FTA) uses C&E to generate logic diagrams for explanations of top events (consequences)
+  - FMEA (Failure and Effect Mode Analysis) uses C&E to list failure modes of equipment
+  - LOPA (Layer of Protection Analysis) uses C&E to tie initiating events to consequences
+- Many Hazard Evaluation Procedures employ this technique:
+  - C&E is critical for both safety investigations and analysis
+
+### Slide 8: Step 2: Create a Reality Chart
 - Start at the Primary Effect and establish causal relationships to causes
 - With new layer of proposed causes, list evidence for validation
 - Ask why again, repeating process to extend chart
@@ -69,14 +77,14 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - New Primary Effect
 - Other Cause Paths more productive
 
-### Slide 8: Step 2: Create a Reality Chart - Causes
+### Slide 9: Step 2: Create a Reality Chart - Causes
 - Causes are both action and conditions which interact with each other
 - Identifying an action or a condition as a cause by concluding
   - Same time frame as effect
   - Interaction relevance with effect
     - This requires listing all potential causes and ranking them according to relevence
 
-### Slide 9: Step 2: Create a Reality Chart - Evidence
+### Slide 10: Step 2: Create a Reality Chart - Evidence
 - Acceptable Evidence Types:
   - Sensed: directly perceived by observer
   - Inferred: known by repeatable causal relationships, should always be verified
@@ -84,9 +92,40 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
   - Intuitive and Emotional evidence should never be directly used to verify anything. However, these can be used to lead to acceptable evidence types through further investigation
 - The purpose of evidence is to validate that causes are indeed related to the effect through a causal relationship
 
-### Slide 10: Step 3: Identify Effective Solutions
+### Slide 11: Reality Chart Example: Sulfuric Acid Tank Explosion
+- PRIMARY EFFECT
+- Acid tank thrown 15 m (50 ft) through the building roof
+- Sensed: tank found on open ground nearby
+- ACTION
+- Hydrogen ignited in the tank vapor space
+- CONDITION
+- Tank split at the base/wall weld, not the roof seam
+- Sensed: failure at base weld
+- ACTION
+- Welders working nearby supplied the ignition source
+- CONDITION
+- Hydrogen accumulated under the conical roof
+- CONDITION
+- Roof/wall weld stronger than usual: explosion not foreseen in design
+- CONDITION
+- Slight corrosion of the tank by acid produced H₂
+- Inferred: acid + steel → H₂
+- CONDITION
+- No vent; only an overflow pipe down to grade
+- SOLUTION
+- Hot-work permit with gas test of nearby vapor spaces
+- CAUSE PATH ENDING
+- Desired condition: tank is in acid service
+- SOLUTION
+- Vent at the highest point (Kletz Fig. 16-1)
+- SOLUTION
+- Make the roof-to-shell seam the weak point (frangible roof)
+- Read left to right, asking "why?" at each box: every effect has an action (orange) and a condition (blue). Each path stops at a cause path ending; solutions target the systemic conditions rather than the incidental action.
+- Incident: T. Kletz, What Went Wrong? 5th ed., §16.2(a).
 
-### Slide 11: Step 3: Identify Effective Solutions
+### Slide 12: Step 3: Identify Effective Solutions
+
+### Slide 13: Step 3: Identify Effective Solutions
 - An effective solution is a solution that meets the solution criteria:
   - Prevent recurrence; this is effectiveness
   - Be within your control; this is practicality
@@ -98,7 +137,7 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
   - Not performed in the future
   - Not redundant of past actions
 
-### Slide 12: Methods to Improve Solutions
+### Slide 14: Methods to Improve Solutions
 - Be Creative
   - Solutions are often not obvious: this requires nontraditional thinking
 - Improve Your Thinking
@@ -112,6 +151,6 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - Using Our Brains
   - Sleep on the problem, this allows the subconscious brain to work
 
-### Slide 13: Step 4: Implement and Track Solutions
+### Slide 15: Step 4: Implement and Track Solutions
 - Utilizing periodic reviews, solution progress should be tracked.
 - Track profitability of result, this impacts future decision making, including more Apollo Root Cause
