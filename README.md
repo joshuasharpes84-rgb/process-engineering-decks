@@ -60,5 +60,6 @@ Each tool repo holds the calculator as a standalone page, a README written for b
 - [Reactor Scale-Up](https://github.com/joshuasharpes84-rgb/reactor-scale-up): jacketed / packed-bed PFR: which limit binds first
 - [EO Runaway Relief](https://github.com/joshuasharpes84-rgb/eo-runaway-relief): loss-of-mixing runaway in an EO ethoxylation reactor
 - [Pressure Vessel Cost vs. Diameter](https://github.com/joshuasharpes84-rgb/pressure-vessel-cost): ASME VIII-1 wall, MAWP/MAWT, material screen, itemized installation
+- [Cleaning Interval & Bundle Life](https://github.com/joshuasharpes84-rgb/hx-cleaning-interval): CaCO3-scaling cooler on TIC: valve-saturation trigger, cost-optimal interval, pitting-limited bundle life
 
 For engineering study. Verify against current codes and standards before use in design.
