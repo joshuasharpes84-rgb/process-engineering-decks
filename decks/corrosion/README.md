@@ -3,9 +3,9 @@
 Corrosion fundamentals, localized corrosion, environmentally assisted cracking, high-temperature gaseous corrosion, and prevention by equipment type (Perry's 9th Ed.).
 
 - **View in browser:** https://jsharpes-portfolio.netlify.app/slides/corrosion/
-- **Download the .pptx (136 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Corrosion.pptx
+- **Download the .pptx (137 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Corrosion.pptx
 - **Author:** Joshua Sharpes, EIT (https://jsharpes-portfolio.netlify.app)
-- **Slides:** 37
+- **Slides:** 41
 
 ## How to use this file
 This is the slide-by-slide text of the deck, extracted so you (or your AI assistant) can search it, quote it, or ask questions about it without opening a large PowerPoint file. Figures, charts and equations drawn as images are not captured here; open the viewer or the .pptx for those. Narrated decks play their audio in PowerPoint Slide Show mode.
@@ -226,7 +226,7 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - Corrosion of material-metal pairings can be found through numerous sources:
 - Best strategies, in order:
   - Increase thickness of material (corrosion allowance)
-  - Clad/line the vulnerable material w/ resistant material
+  - Barriers Install: Clad/line the vulnerable material w/ resistant material
   - Upgrade material altogether
 - Corrosion Prevention
 
@@ -252,7 +252,7 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
   - water phase separates below less dense organic phase w/ outlet nozzle elevated
     - Slow corrosion rate but increased timeframe
   - water builds up on soil-side due to lack of drainage
-    - Cathodic protection systems
+    - Cathodic protection systems are used
 - Corrosion Prevention
 
 ### Slide 33: Corrosion Prevention: Piping Design
@@ -282,14 +282,7 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - Paints, Coatings, and Linings
 - Galvanizing
 - Metal Barriers
-- Loose Lining
-- Roll Bonding
-- Explosion Bonding
-- Weld Overlay
-- Nonmetallic Barriers
-- Glass-Lined Equipment
-- Rubber-Lined Equipment
-- Refractory-Lined Equipment
+- Nonmetallic Barriers: Glass-lined, Rubber-lined, and Refractory-lined Equipment
 
 ### Slide 36: Paints, Coatings, and Linings
 - Paints/Coatings = Externally Applied
@@ -318,3 +311,35 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - Difficult to surface prep and paint an already galvanized surface
 - Corrosion Prevention: Barriers to Prevent Corrosion
 - Hot-Galvanization
+
+### Slide 38: Metal Barriers
+- Addition of Corrosion Resistant Alloy on top of cheaper, more vulnerable ferritic substrate.
+- Construction Techniques include:
+- Loose-Lining: intricate fillet + seal welds add layers individually
+- Roll-Cladding: mechanical pressing under heat/pressure
+- Explosive Bonding: explosives provide compression to form metallurgical bonds
+- Weld Overlay: more generic version of loose-lining
+- Corrosion Prevention: Barriers to Prevent Corrosion
+
+### Slide 39: Non-Metallic Barriers
+- 3 types of linings that are added to metal substrate:
+- Glass Linings: addition of glass prevents contamination towards high-purity material but limits size of vessel
+  - Needs to be monitored w/ conductive testing, repaired w/ tantalum (or Stainless steel) addition
+- Rubber Linings: many different elastomeric materials
+- Refractory Linings: separate wall preceding metal. Common example is furnace brick lining
+  - Need to consider cold-wall effect; pentation of brick will result in condensation (liquid phase corrosion potential)
+- Corrosion Prevention: Barriers to Prevent Corrosion
+
+### Slide 40: Cathodic Protection
+- Applications for these systems typically involve underground metal in contact w/ soil due to potential for water buildup:
+  - Flat Bottom Storage Tanks
+  - Underground Pipelines
+- Two Types of Protection Systems:
+  - Sacrificial Anodes: Galvanic series is implemented between process metal and less noble metal spare that serves as anode (Fig. 25-10)
+  - Impressed Current: current (DC) is provided in circuit between graphite (anode) and process metal (Fig. 25-11)
+- Selection between these two systems depends on capital of power supply and sacrificial anodes
+  - Non-metallic barriers can be used in combination to reduce electrical load
+- Corrosion Prevention: Cathodic Protection
+
+### Slide 41: Anodic Protection
+- Corrosion Prevention: Anodic Protection

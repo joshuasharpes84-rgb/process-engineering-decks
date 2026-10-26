@@ -3,9 +3,9 @@
 Four-step Apollo RCA: problem definition, reality chart, effective solutions, implement and track.
 
 - **View in browser:** https://jsharpes-portfolio.netlify.app/slides/apollo-rca/
-- **Download the .pptx (261 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Apollo-Root-Cause-Methodology.pptx
+- **Download the .pptx (258 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Apollo-Root-Cause-Methodology.pptx
 - **Author:** Joshua Sharpes, EIT (https://jsharpes-portfolio.netlify.app)
-- **Slides:** 15
+- **Slides:** 13
 
 ## How to use this file
 This is the slide-by-slide text of the deck, extracted so you (or your AI assistant) can search it, quote it, or ask questions about it without opening a large PowerPoint file. Figures, charts and equations drawn as images are not captured here; open the viewer or the .pptx for those. Narrated decks play their audio in PowerPoint Slide Show mode.
@@ -38,61 +38,107 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
   - Where: location of primary effect
   - Significance: why this problem matters; how is the primary effect impactful to the organization?
     - Can be in terms of health, revenue, liability, safety, environment, etc.
+- Step 1: Define the Problem
 
-### Slide 5: Cause and Effect Principles – Chapter 3
-- Note that a Cause can be one of the following:
-- Action Cause
-- Condition Cause
-
-### Slide 6: C&E Principles
+### Slide 5: C&E Principles (Chapter 3)
 - First: Cause & effects are the same
   - The continuum can be reversed; fear of tomorrow can cause the events of today
 - Second: Each effect has at least two causes in the form of actions and conditions
   - An action cause can not occur without a condition cause & vice versa
 - Third: Causes & effects are part of an infinite continuum of causes
   - since the continuum of cause/effect expands infinitely, the starting point is only relative:
-    - Why am I so grumpy today?  Big bang theory billion of years ago
+    - Why am I so happy today?  Big bang theory billion of years ago
     - What will happen if I stop going to the park?  altered university entropy in 1000 years
 - Fourth: an effect exists only if the causes exist in the same space and time frame
-  - Yesterday’s cause is today’s effect for today’s cause:
+  - Yesterday’s cause is today’s effect for today’s cause
+- Step 1: Define the Problem
 
-### Slide 7: Cause & Effect Applications
+### Slide 6: Cause & Effect Applications
 - This lineage of causation is applicable to more than just Apollo RCA:
   - Fault Tree Analysis (FTA) uses C&E to generate logic diagrams for explanations of top events (consequences)
   - FMEA (Failure and Effect Mode Analysis) uses C&E to list failure modes of equipment
   - LOPA (Layer of Protection Analysis) uses C&E to tie initiating events to consequences
 - Many Hazard Evaluation Procedures employ this technique:
   - C&E is critical for both safety investigations and analysis
+- Step 1: Define the Problem
 
-### Slide 8: Step 2: Create a Reality Chart
-- Start at the Primary Effect and establish causal relationships to causes
-- With new layer of proposed causes, list evidence for validation
-- Ask why again, repeating process to extend chart
-- Stop when a Cause Path Ending is met
-- Note solutions for cause path endings
-- Cause Path Ending:
-- More Info Needed
-- Desired Condition
-- Don’t Have Control
-- New Primary Effect
-- Other Cause Paths more productive
+### Slide 7: Step 2: Create a Reality Chart
+- Step 2: Create a Reality Chart
+- Build left to right. Validate each proposed causal relationship before extending the chart.
+- PRIMARY EFFECT
+- The problem to prevent from recurring
+- PROPOSED CAUSES
+- Identify the action + condition
+- SUBSEQUENT CAUSES
+- Ask “why?” and extend one layer
+- CAUSE PATH ENDING
+- Stop when an ending criterion is met
+- NOTE SOLUTIONS
+- Capture options at path endings
+- WHY?
+- WHY?
+- WHY?
+- THEN
+- EVIDENCE
+- Sensed or inferred information that validates this link
+- EVIDENCE
+- Sensed or inferred information that validates this link
+- • More info needed
+- • Desired condition
+- • Don’t have control
+- • New primary effect
+- • More productive cause path
+- OUTPUT
+- Specific solution ideas tied to the path ending
+- PLACE EVIDENCE DIRECTLY UNDER EACH CAUSE LAYER
+- ACTION + CONDITION causes must exist in the same time and space as the effect.
+- Build left to right. Validate each proposed causal relationship before extending the chart.
+- PRIMARY EFFECT
+- The problem to prevent from recurring
+- PROPOSED CAUSES
+- Identify the action + condition
+- SUBSEQUENT CAUSES
+- Ask “why?” and extend one layer
+- CAUSE PATH ENDING
+- Stop when an ending criterion is met
+- NOTE SOLUTIONS
+- Capture options at path endings
+- WHY?
+- WHY?
+- WHY?
+- THEN
+- EVIDENCE
+- Sensed or inferred information that validates this link
+- EVIDENCE
+- Sensed or inferred information that validates this link
+- • More info needed
+- • Desired condition
+- • Don’t have control
+- • New primary effect
+- • More productive cause path
+- OUTPUT
+- Specific solution ideas tied to the path ending
+- PLACE EVIDENCE DIRECTLY UNDER EACH CAUSE LAYER
+- ACTION + CONDITION causes must exist in the same time and space as the effect.
 
-### Slide 9: Step 2: Create a Reality Chart - Causes
+### Slide 8: Step 2: Create a Reality Chart - Causes
 - Causes are both action and conditions which interact with each other
-- Identifying an action or a condition as a cause by concluding
+- Identifying an action or a condition as a cause by concluding:
   - Same time frame as effect
   - Interaction relevance with effect
-    - This requires listing all potential causes and ranking them according to relevence
+    - This requires listing all potential causes and ranking them according to relevance
+- Step 2: Create a Reality Chart
 
-### Slide 10: Step 2: Create a Reality Chart - Evidence
+### Slide 9: Step 2: Create a Reality Chart - Evidence
 - Acceptable Evidence Types:
   - Sensed: directly perceived by observer
   - Inferred: known by repeatable causal relationships, should always be verified
 - Non-acceptable, but potentially useful evidence
   - Intuitive and Emotional evidence should never be directly used to verify anything. However, these can be used to lead to acceptable evidence types through further investigation
 - The purpose of evidence is to validate that causes are indeed related to the effect through a causal relationship
+- Step 2: Create a Reality Chart
 
-### Slide 11: Reality Chart Example: Sulfuric Acid Tank Explosion
+### Slide 10: Reality Chart Example: Sulfuric Acid Tank Explosion
 - PRIMARY EFFECT
 - Acid tank thrown 15 m (50 ft) through the building roof
 - Sensed: tank found on open ground nearby
@@ -122,10 +168,9 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - Make the roof-to-shell seam the weak point (frangible roof)
 - Read left to right, asking "why?" at each box: every effect has an action (orange) and a condition (blue). Each path stops at a cause path ending; solutions target the systemic conditions rather than the incidental action.
 - Incident: T. Kletz, What Went Wrong? 5th ed., §16.2(a).
+- Step 2: Create a Reality Chart
 
-### Slide 12: Step 3: Identify Effective Solutions
-
-### Slide 13: Step 3: Identify Effective Solutions
+### Slide 11: Step 3: Identify Effective Solutions
 - An effective solution is a solution that meets the solution criteria:
   - Prevent recurrence; this is effectiveness
   - Be within your control; this is practicality
@@ -136,8 +181,9 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - Solutions should be specific actions
   - Not performed in the future
   - Not redundant of past actions
+- Step 3: Identify Effective Solutions
 
-### Slide 14: Methods to Improve Solutions
+### Slide 12: Methods to Improve Solutions
 - Be Creative
   - Solutions are often not obvious: this requires nontraditional thinking
 - Improve Your Thinking
@@ -150,7 +196,9 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
   - Use group synergy – encourage crazy ideas, allowing people to elaborate
 - Using Our Brains
   - Sleep on the problem, this allows the subconscious brain to work
+- Step 3: Identify Effective Solutions
 
-### Slide 15: Step 4: Implement and Track Solutions
+### Slide 13: Step 4: Implement and Track Solutions
 - Utilizing periodic reviews, solution progress should be tracked.
 - Track profitability of result, this impacts future decision making, including more Apollo Root Cause
+- Step 4: Implement and Track Solutions

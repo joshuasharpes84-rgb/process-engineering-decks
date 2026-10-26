@@ -14,7 +14,7 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 
 ### Slide 1: Absorber Selection
 - Joshua Sharpes
-- Source: Encyclopedia of Chemical Processing Equipment
+- Source: Cheremisinoff, N.P., Chemical Engineer’s Condensed Encyclopedia of Process Equipment (Gulf, 2000)
 - See Absorber Heuristics Presentation for more detailed Selection, Design, and Performance Evaluation of Absorbers
 
 ### Slide 2: Absorption Background
@@ -44,7 +44,7 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 
 ### Slide 5: Bubble Cap Absorbers
 - These absorbers have higher residence times than that of packed towers. As such, This design is best for:
-  - low liquid rates (packing would not be wetted)
+  - low liquid rates (random packing would not be wetted)
   - High tower performance; operation nears equilibrium
   - Services with scaling potential (manhole cleaning accessibility)
   - Slower chemical reactions

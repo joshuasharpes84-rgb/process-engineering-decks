@@ -3,7 +3,7 @@
 Film vs dropwise condensation, non-condensables, and design heuristics.
 
 - **View in browser:** https://jsharpes-portfolio.netlify.app/slides/condensers/
-- **Download the .pptx (100 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Condensers.pptx
+- **Download the .pptx (101 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Condensers.pptx
 - **Author:** Joshua Sharpes, EIT (https://jsharpes-portfolio.netlify.app)
 - **Slides:** 5
 
@@ -12,8 +12,9 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 
 ## Slide outline
 
-### Slide 1: Condensers(Encyclopedia of Process Equipment)
+### Slide 1: Condensers
 - Joshua Sharpes
+- Source: Cheremisinoff, N.P., Chemical Engineer’s Condensed Encyclopedia of Process Equipment (Gulf, 2000)
 
 ### Slide 2: Condenser Types
   |  | Fluid Mixing | Equipment Examples | Efficiency | Condensate Re-use | Subcooling |

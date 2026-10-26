@@ -14,6 +14,7 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 
 ### Slide 1: Flow Measuring Devices
 - Joshua Sharpes
+- Source: Cheremisinoff, N.P., Chemical Engineer’s Condensed Encyclopedia of Process Equipment (Gulf, 2000)
 
 ### Slide 2: Venturi Meters
 - Gradual contraction of cross-sectional area results in velocity increase at Contrera. Pressure taps on both sides of Contrera reports flow using systematic correction factors to account for frictional losses.

@@ -13,7 +13,7 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 ## Slide outline
 
 ### Slide 1: Storage Vessels
-- Source: Encyclopedia of Process Equipment
+- Source: Cheremisinoff, N.P., Chemical Engineer’s Condensed Encyclopedia of Process Equipment (Gulf, 2000)
 - Joshua Sharpes
 
 ### Slide 2: Classifications

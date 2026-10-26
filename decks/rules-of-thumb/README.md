@@ -5,7 +5,7 @@ Cross-equipment heuristics: control valve authority, PSV relief scenarios, pump 
 - **View in browser:** https://jsharpes-portfolio.netlify.app/slides/rules-of-thumb/
 - **Download the .pptx (2 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Rules-of-Thumb.pptx
 - **Author:** Joshua Sharpes, EIT (https://jsharpes-portfolio.netlify.app)
-- **Slides:** 34
+- **Slides:** 43
 
 ## How to use this file
 This is the slide-by-slide text of the deck, extracted so you (or your AI assistant) can search it, quote it, or ask questions about it without opening a large PowerPoint file. Figures, charts and equations drawn as images are not captured here; open the viewer or the .pptx for those. Narrated decks play their audio in PowerPoint Slide Show mode.
@@ -108,9 +108,10 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
   - Tube Side:
     - Nusselt : Dittus-Boelter
     - Pressure Drop: Darcy-Weisbach (tubes) + Nozzle/Entrance/Exit Losses
-  - Shell Side:
-    - Nusselt: Bell-Delaware Method
-    - Pressure Drop: Bell-Delaware Method (entrance, exit, crossflow, window losses)
+  - Shell Side: See Correlation Selections
+    - Nusselt: Bell-Delaware Method (or Kern, Wills-Johnston)
+    - Pressure Drop: Bell-Delaware Method (or Kern, Wills-Johnston)
+      - (entrance, exit, crossflow, window losses)
 
 ### Slide 14: Separation Efficiency (N) Pressure Dependency
 - Increasing tower pressure requires higher reboiler temperature
@@ -165,7 +166,7 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - Exact value is based on empirical results: dependent on distillate quality and reboiler energy
 
 ### Slide 20: K Factors (Separation)
-- The K value for a component is dependent on the ideality of the phases, and the concentration of the solute
+- The K value for a component is dependent on
   - Gas Ideality: nominally pressure dependent.
   - High pressures require fugacity coefficient
   - Liquid Ideality: dependent on bonds and temperature.
@@ -244,7 +245,7 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - Typically, pressure drop in tube side is dominated by straight tube losses: roughly 20-30% of total pressure drop losses
   - Source: Coulson/Richardson Engineer Surveys
 
-### Slide 34: Dry Corrosion Protection
+### Slide 34: Dry (Gaseous) Corrosion Protection
 - Most common is Alloying (Passivation)
   - Since corrosion is inevitable, having that corrosion produce the protection layer for future corrosion is inherently sustainable:
     - Material produces its own coating
@@ -252,3 +253,77 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
   - Sometimes, promoters are added to boost this film buildup
 - Next most common method is Protective Coating
   - Selection is limited as most thermally degrade
+
+### Slide 35: Condensation S/T Allocation
+- Run through these criteria until allocation and orientation is defined
+- Fouling is first criteria: (1) Severity of either method and (2) method type
+  - For severe fouling:
+    - Particulate: tube-side, orientation depending mixture composition
+    - Liquid-Film: shell-side, horizontal
+- Condensation extent is second:
+  - Partial Condensation: Shell-side
+- Mixture composition is third:
+  - Multi-component: vertical
+- If none of these apply: shell-side, horizontal is default
+
+### Slide 36: Shell-side h, ∆P Correlation Selection (See Prior Slide)
+- Potential options are Kern, Bell-Delaware, and Wills-Johnston
+  - These methods differ by leakage estimation technique
+- Kern: least accurate -- best for first-pass estimation
+  -  Assumes complete cross-flow, no baffle/tube leakage
+- Bell-Delaware: moderately accurate -- best for well-defined geometries
+  -  Implements adjustment factors to estimate leakage:
+    - Baffle-window, tube-baffle, shell-baffle, bundle-shell leakages are all considered
+  - Aspen uses this method w/ its own modifications for adjustment factors
+- Wills-Johnston: most accurate -- best for rigorous simulation
+  -  Uses flow path (bundle, window, etc.) to converge iterations on solution
+- All three methods compared in Problem 14-6 of Peters:
+  | Method | h_s (W/m²·K) — mine / book | dP_s (Pa) — mine / book |
+  | Kern | 3352 / 3369 | 16,414 / 16,420 |
+  | Bell-Delaware | 2917 / 3080 | 9,382 / 9,481 |
+  | Wills-Johnston | 2986 / 3004 | 4,055 / 4,103 |
+- ∆P  is much more sensitive to leakage assumptions
+
+### Slide 37: Internal Reboilers
+- Internal Reboilers should only be considered for tower diameters greater than 6 feet in diameter
+- Potential option for brownfield retrofit to get additional duty
+  - Downside: significantly lower heat transfer coefficients, difficult maintenance/monitorization.
+
+### Slide 38: Tower Ambient Heat Losses
+- These are typically 1-3% of Reboiler Duty
+  - Up to 5% for colder climates
+
+### Slide 39: Tower Simulation Convergence
+- Selection between Stage-by-stage (SS) and Simultaneous-Correction (SC) is dependent on bubbling point range:
+  - Check critical temperatures – any below operating temperature Simultaneous-correction
+  - Check Kmax / Kmin ratio; >50 requires SC. <50 still might require SC. <10 for SS
+- SC solves for every variable in system of equations at once (vector form), requiring exponentially more calculations  This will slow down large process simulations
+  - In practice, Aspen uses hybrid to dynamically select approach based on how many convergences are needed to solve process user.
+- SS = one stage temperature at a time, SC = all stage temperatures at once
+
+### Slide 40: Turbine to Compressor Ratio
+- For Centrifugal Compressors, typically 2-3 compressor barrels are allocated per turbine shaft, driven by steam.
+  - This helps
+
+### Slide 41: Pump Work in Steam (Rankine) Cycles
+- Typically negligible: only 1-3% of net work.
+
+### Slide 42: Centrifugal Pump Lifetime
+- Leading failure modes of Pumps:
+  - Mechanical Seals (1-3 yrs)
+  - Bearings (1.8 – 2.9 years)
+  - Wear Rings (2 - 4 years)
+  - Impeller Damage (months – indefinitely)
+  - Shaft/Sleave
+  - Couplings/Alignment (2-5 years)
+  - Vibration
+  - Process Upsets
+  - Driver (motors)
+- Mean-time between failures (any type) is 2-3 years.
+
+### Slide 43: Centrifugal Pump PMs
+- Following items are typically addressed during Pump Preventative Maintenance:
+- Lube Oil Changes
+- Vibration Routes
+- Alignment Checks
+- Seal-support Checks

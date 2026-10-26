@@ -3,7 +3,7 @@
 Souders-Brown sizing, height heuristics, residence time, mist extractor, and control loops.
 
 - **View in browser:** https://jsharpes-portfolio.netlify.app/slides/vgl-separators/
-- **Download the .pptx (95 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Vertical-Gas-Liquid-Separators.pptx
+- **Download the .pptx (94 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Vertical-Gas-Liquid-Separators.pptx
 - **Author:** Joshua Sharpes, EIT (https://jsharpes-portfolio.netlify.app)
 - **Slides:** 5
 
@@ -31,6 +31,8 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - K is between 0.15 and 0.25 ft/s.
   - This value decreases with higher pressures.
 - Must ensure that Vmax is not exceeded in the overhead piping.
+- This is the same equation used for flooding (and therefore diameter) calculations in trayed distillation towers:
+- Carryover in separator = flooding in tower
 
 ### Slide 4: Vessel Height
 - Evaluations:

@@ -3,7 +3,7 @@
 Centrifugal, reciprocating, rotary, and axial compressor types — performance tradeoffs, vacuum service, and driver selection criteria.
 
 - **View in browser:** https://jsharpes-portfolio.netlify.app/slides/compressor-selection/
-- **Download the .pptx (277 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Compressor-Selection.pptx
+- **Download the .pptx (177 MB):** https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/Compressor-Selection.pptx
 - **Author:** Joshua Sharpes, EIT (https://jsharpes-portfolio.netlify.app)
 - **Slides:** 14
 
@@ -16,7 +16,7 @@ This is the slide-by-slide text of the deck, extracted so you (or your AI assist
 - Joshua Sharpes
 - Sources:
 - Perry’s
-- Chemical Engineers’ Condensed Encyclopedia of Process Equipment
+- Cheremisinoff, Chemical Engineer’s Condensed Encyclopedia of Process Equipment (Gulf, 2000)
 
 ### Slide 2: Contents
 - Compressor Background
