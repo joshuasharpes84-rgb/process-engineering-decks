@@ -6,6 +6,10 @@ Presentations by **Joshua Sharpes, EIT** on equipment sizing and selection, heur
 > VS Code or any editor, and extend it for your own case with your AI assistant. This README is written for
 > both of you. Taking these tools further is a free service of
 > [Sharpes Process Engineering](https://jsharpes-portfolio.netlify.app); the site's Ask box can point you to the right starting file.
+>
+> **License:** the slides' original content is [CC BY 4.0](LICENSE): reuse and adapt it with credit to
+> Joshua Sharpes. Figures, tables and excerpts reproduced from the cited textbooks, standards and papers
+> remain their owners' and are not covered. Shared as is, without warranty.
 
 ## How to use this repo
 
