@@ -54,6 +54,7 @@ Tower Retrofits (table 12 and fig 23)
 - Navigating Packing Charts: Structured Packing
 - Retrofitting Costs and Installation Methods
 - ◂ Contents   ·   Absorber and Packing Selection   ·   #
+- Back to Table of Contents
 
 ### Slide 5: Absorption Applications
 - See prior Absorber Presentation for detailed selection guidance
@@ -89,8 +90,8 @@ Tower Retrofits (table 12 and fig 23)
 - ◂ Contents   ·   Absorber and Packing Selection   ·   #
 
 ### Slide 8: Low Liquid Rates: Trays vs Structured Packing (rules of thumb)
-  - Roughly 2/3 of absorbers have FP  < 0.1
-  - Most gases are very lean
+- Roughly 2/3 of absorbers have FP  < 0.1
+- Most gases are very lean
 - Trays are prone to:
 - Foaming
 - Entrainment
@@ -105,11 +106,11 @@ Tower Retrofits (table 12 and fig 23)
 - Structured Packing (Table 14-14) is better for:
   - Larger towers: Diameter >3ft
   - Lower Liquid Rates: 0.02 < Fp < 0.3
-  - Lower pressure drop
+  - Lower pressure drop requirement
 - Random Packing (Table 14-13) is better for:
   - Small Towers : Diameter <3ft
   - Higher Liquid Rates: 0.3 < Fp < 0.5
-  - High pressure process
+  - Higher pressure drop tolerances (typically high-pressure process)
 - **For Fp  < 0.02  Consider Bubble-Cap Tower
 - These heuristics are under the assumption of adequate liquid distribution and non-restrictive internals
 - ◂ Contents   ·   Absorber and Packing Selection   ·   #
@@ -129,7 +130,7 @@ Tower Retrofits (table 12 and fig 23)
 - Trays > R. Packing > S. Packing
 - ◂ Contents   ·   Absorber and Packing Selection   ·   #
 
-### Slide 12: Random Packing Size Selection
+### Slide 12: Random Packing Size Selection Heuristic
 - Packing Size is dependent on tower diameter.
 - Smaller packing is more efficient, but carries higher pressure drop
 - Robbins Recommends that tower diameter should be at least 8x packing size
@@ -172,6 +173,7 @@ Tower Retrofits (table 12 and fig 23)
 - Predicting Flood Point with Pressure Drop (2nd method)
 - Packing Factors FP
 - ◂ Contents   ·   Packing Hydraulics   ·   #
+- Back to Table of Contents
 
 ### Slide 17: Packing Checklist
 - Ensure following heuristics, shown in upcoming slides, are met:
@@ -207,13 +209,16 @@ Tower Retrofits (table 12 and fig 23)
 - ◂ Contents   ·   Packing Hydraulics   ·   #
 
 ### Slide 21: Allowable Pressure Drop: Random Packing
-- For Standard Distillation (Random Packing), Allowable pressure drop is largely dependent on operating Pressure:
-  - Medium Pressure: 0.40 – 0.60 in/ft
-  - Higher Pressure: 1.5 – 2.0 in/ft
-- For Absorption, Allowable Pressure Drops Are Lower:
-  - 0.1 – 0.4 in/ft for non-foaming systems
-  - 0.25 – 0.4 in/ft for moderate foaming systems
+- Random Packing
+  - For Standard Distillation, Allowable pressure drop is largely dependent on operating Pressure:
+    - Medium Pressure: 0.40 – 0.60 in/ft
+    - Higher Pressure: 1.5 – 2.0 in/ft
+  - For Absorption, Allowable Pressure Drops Are Lower:
+    - 0.1 – 0.4 in/ft for non-foaming systems
+    - 0.25 – 0.4 in/ft for moderate foaming systems
 - Structured Packing:
+  - Absorption:
+    - 0.3-0.5 in/ft, regardless of foaming
 - ◂ Contents   ·   Packing Hydraulics   ·   #
 
 ### Slide 22: Predicting Flood Point with Pressure Drop (1st method)
@@ -247,6 +252,7 @@ Tower Retrofits (table 12 and fig 23)
 - Pressure Drop Across Packing Supports and Redistribution Plates
 - Redistribution Heuristics
 - ◂ Contents   ·   Tower Internals: Distribution and Support   ·   #
+- Back to Table of Contents
 
 ### Slide 26: Liquid Distribution
 - A tower is not just packing/trays, devices are needed to ensure necessary irrigation of liquid throughout these contacting volumes:
@@ -350,6 +356,7 @@ Tower Retrofits (table 12 and fig 23)
 - Performance Evaluation: HTU/NTU Method
 - Kremser Method: Design
 - ◂ Contents   ·   Design and Evaluation Methods   ·   #
+- Back to Table of Contents
 
 ### Slide 36: Absorption Feasibility Analysis
 - Perry’s section 14 mentions graphical method using operating lines and equilibrium data
@@ -428,6 +435,12 @@ Tower Retrofits (table 12 and fig 23)
 - Vapor flow rate (V) is a function of tower diameter
 - Z: packing height required to achieve separation
 - ◂ Contents   ·   Design and Evaluation Methods   ·   #
+- Correlation choice at high pressure (TEG contactor, 70 bar):
+- Onda a_w (Perry's Table 5-24-C) is the default: within ~20% of Perry's HETP rule
+- Bravo–Fair is invalid here: a_e exceeds a_p
+- Check every model height against Perry's HETP rule
+
+> Speaker notes: Sources (added 2026-10-26): Perry's 8th Table 5-24-C (Onda) and 5-24-D (Bravo-Fair); Perry's 9th Sec 14 HETP rules Eqs 14-156, 14-159, 14-161 (glycol x1.5, Strigle lambda). At 70 bar the Bravo-Fair effective area exceeds the dry area (a_e/a_p > 1), so it is out of range; Onda's wetted area lands within ~20% of Perry's rule. Detail: Glycol Dehydrator\Contactor Sizing\Contactor Sizing - Findings.md.
 
 ### Slide 46: Kremser Method: Design
 - ◂ Contents   ·   Design and Evaluation Methods   ·   #
@@ -439,7 +452,13 @@ Tower Retrofits (table 12 and fig 23)
     - https://pubs.acs.org/doi/pdf/10.1021/ie00016a010?ref=article_openPDF
   - Random Packing:
     - Bravo and Fair correlation [Ind. Eng. Chem. Proc. Des. Dev. 21, 162 (1982)]
+    - Invalid at high pressure (a_e > a_p at 70 bar); Onda a_w is the default
   - Perry’s Table 5-24 provides correlations:
     - Sherwood/Holloway (Random), Onda (Random), Reiss (Random), etc.
 - Applied Process Design, Volume 2 (Ludwig)
 - ◂ Contents   ·   Appendix: Mass-Transfer Correlation References   ·   #
+- Tray efficiency (bubble cap): AIChE Bubble Tray Design Manual, Perry's 9th Eqs 13-72 to 13-78, then Eqs 14-137 and 14-135; O'Connell (Fig 14-9) is off chart for TEG
+- Maldistribution: Moore & Rukovena (Perry's Fig 14-63); Lockett & Billingham f_max (Eq 14-162)
+- Back to Table of Contents
+
+> Speaker notes: Sources (added 2026-10-26): Perry's 9th Sec 13 pp.13-38 to 13-39 (AIChE N_V, N_L), Sec 14 p.14-47 (Eqs 14-135 to 14-137), Fig 14-9 (O'Connell); GPSA Sec 20 (tray efficiency 25-30%); Kean, Turner & Price, Oil & Gas J. Sept 23 1991 (25%, some operators 33%). Perry's 9th pp.14-66 to 14-68 (Moore & Rukovena Fig 14-63; Lockett & Billingham Eq 14-162 and f_max guidelines).
