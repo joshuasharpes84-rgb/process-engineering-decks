@@ -2,6 +2,11 @@
 
 Presentations by **Joshua Sharpes, EIT** on equipment sizing and selection, heuristics, process safety, and engineering history. Companion material to the [technical portfolio](https://jsharpes-portfolio.netlify.app).
 
+> **Make it yours, free:** download this repo (**Code → Download ZIP**, or `git clone`), open the folder in
+> VS Code or any editor, and extend it for your own case with your AI assistant. This README is written for
+> both of you. Taking these tools further is a free service of
+> [Sharpes Process Engineering](https://jsharpes-portfolio.netlify.app); the site's Ask box can point you to the right starting file.
+
 ## How to use this repo
 
 - **Read or search a deck:** every deck has a folder under `decks/` with a `README.md` holding its slide-by-slide text. Hand that file to your AI assistant and ask it questions, or use it to rebuild the material in your own format.
@@ -61,5 +66,6 @@ Each tool repo holds the calculator as a standalone page, a README written for b
 - [EO Runaway Relief](https://github.com/joshuasharpes84-rgb/eo-runaway-relief): loss-of-mixing runaway in an EO ethoxylation reactor
 - [Pressure Vessel Cost vs. Diameter](https://github.com/joshuasharpes84-rgb/pressure-vessel-cost): ASME VIII-1 wall, MAWP/MAWT, material screen, itemized installation
 - [Cleaning Interval & Bundle Life](https://github.com/joshuasharpes84-rgb/hx-cleaning-interval): CaCO3-scaling cooler on TIC: valve-saturation trigger, cost-optimal interval, pitting-limited bundle life
+- [TEG Contactor Sizer](https://github.com/joshuasharpes84-rgb/teg-contactor-sizer): glycol dehydration contactor: packing vs. bubble-cap trays sized, costed and compared, with a datasheet
 
 For engineering study. Verify against current codes and standards before use in design.
