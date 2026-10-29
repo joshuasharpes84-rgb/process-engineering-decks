@@ -52,7 +52,7 @@ Tower Retrofits (table 12 and fig 23)
 - Performance Characterization of Trays and Packing
 - Random Packing Size Selection
 - Navigating Packing Charts: Structured Packing
-- Retrofitting Costs and Installation Methods
+- Retrofitting/Installation Costs
 - ◂ Contents   ·   Absorber and Packing Selection   ·   #
 - Back to Table of Contents
 
@@ -147,7 +147,7 @@ Tower Retrofits (table 12 and fig 23)
     - More porous, lower pressure drop
 - ◂ Contents   ·   Absorber and Packing Selection   ·   #
 
-### Slide 14: Retrofitting Costs and Installation Methods
+### Slide 14: Retrofitting/Installation Costs
 - Example: A 30ft tower with  tray  packing swap would cost about $50k
 - Not shown are factors for labor, packing spacing, and removal.
 - Installation of Packing Material:

@@ -1,0 +1,105 @@
+# Perry's Reference Notes: Fluid Dynamics
+
+Joshua Sharpes's handwritten study notes (29 pages) on *Perry's Chemical Engineers' Handbook*, 9th edition, Sec. 6 (Fluid and Particle Dynamics).
+
+- **View the notes:** https://jsharpes-portfolio.netlify.app/slides/perrys-fluid/
+- **Author:** Joshua Sharpes, EIT (https://jsharpes-portfolio.netlify.app)
+
+## How to use this file
+The notes are handwritten, so their text isn't reproduced here. This outline lists the Perry's 9th edition headings the notes cover, in Perry's order, so you (or your AI assistant) can tell what they contain and go to the matching part of the handbook. Numbers, equations and sketches are in the notes themselves.
+
+## Perry's Sec. 6, Fluid and Particle Dynamics
+
+- Nature of Fluids
+- Deformation and Stress
+- Viscosity
+- Rheology
+- Kinematics of Fluid Flow
+- Velocity
+- Streamlines, Pathlines, and Streaklines
+- Rate of Deformation Tensor
+- Vorticity
+- Laminar and Turbulent Flow
+- Conservation Equations
+- Macroscopic Equations
+- Mass Balance
+- Momentum Balance
+- Total Energy Balance
+- Mechanical Energy Balance, Bernoulli Equation
+- Mass Balance, Continuity Equation
+- Stress Tensor
+- Cauchy Momentum and Navier-Stokes Equations
+- Incompressible Flow in Pipes and Channels
+- Mechanical Energy Balance
+- Friction Factor and Reynolds Number
+- Laminar and Turbulent Flow
+- Velocity Profiles
+- Entrance and Exit Effects
+- Residence Time Distribution
+- Noncircular Channels
+- Nonisothermal Flow
+- Open-Channel Flow
+- Nonnewtonian Flow
+- Drag Reduction
+- Economic Pipe Diameter, Turbulent Flow
+- Economic Pipe Diameter, Laminar Flow
+- Vacuum Flow
+- Molecular Flow
+- Frictional Losses in Pipeline Elements
+- Equivalent Length and Velocity Head Methods
+- Contraction and Entrance Losses
+- Expansion and Exit Losses
+- Curved Pipes and Coils
+- Screens
+- Jet Behavior
+- Flow Through Orifices
+- Compressible Flow
+- Mach Number and Speed of Sound
+- Isothermal Gas Flow in Pipes and Channels
+- Adiabatic Frictionless Nozzle Flow
+- Adiabatic Flow with Friction in a Duct of Constant Cross Section
+- Multiphase Flow
+- Liquids and Gases
+- Gases and Solids
+- Solids and Liquids
+- Fluid Distribution
+- Perforated-Pipe Distributors
+- Slot Distributors
+- Turning Vanes
+- Perforated Plates and Screens
+- Beds of Solids
+- Fluid Mixing
+- Stirred Tank Agitation
+- Pipeline Mixing
+- Tube Banks
+- Beds of Solids
+- Fixed Beds of Granular Solids
+- Porous Media
+- Tower Packings
+- Fluidized Beds
+- Flat Plate, Zero Angle of Incidence
+- Continuous Flat Surface
+- Continuous Cylindrical Surface
+- Vortex Shedding
+- Coating Flows
+- Falling Films
+- Minimum Wetting Rate
+- Laminar Flow
+- Turbulent Flow
+- Effect of Surface Traction
+- Flooding
+- Hydraulic Transients
+- Water Hammer
+- Pulsating Flow
+- Cavitation
+- Turbulence
+- Time Averaging
+- Closure Models
+- Computational Fluid Dynamics
+- Dimensionless Groups
+- Terminal Velocity
+- Time-Dependent Motion
+- Gas Bubbles
+- Liquid Drops in Liquids
+- Liquid Drops in Gases
+- Wall Effects

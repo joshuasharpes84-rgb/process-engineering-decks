@@ -58,6 +58,20 @@ Presentations by **Joshua Sharpes, EIT** on equipment sizing and selection, heur
 |---|---|---|---|---|
 | ChemE Legends | 60 | [decks/cheme-legends](decks/cheme-legends/) | [viewer](https://jsharpes-portfolio.netlify.app/slides/cheme-legends/) | [⇩ .pptx](https://github.com/joshuasharpes84-rgb/process-engineering-decks/releases/download/decks-v1/ChemE-Legends.pptx) (6 MB) |
 
+## Study notes (Perry's 9th edition) and problem sets
+
+Handwritten notes, so each folder holds a topic outline (the Perry's headings covered) rather than the text. The problem sets point to LearnChemE, the source they were worked from.
+
+- [Perry's Reference Notes: Capital Projects](notes/perrys-capital/)
+- [Perry's Reference Notes: Compressors](notes/perrys-compressors/)
+- [Perry's Reference Notes: Fluid Dynamics](notes/perrys-fluid/)
+- [Perry's Reference Notes: Heat Transfer](notes/perrys-ht/)
+- [Perry's Reference Notes: Mass Transfer](notes/perrys-mass-transfer/)
+- [Perry's Reference Notes: Process Safety](notes/perrys-process-safety/)
+- [Perry's Reference Notes: Pumps](notes/perrys-pumps/)
+- [Perry's Reference Notes: Thermodynamics](notes/perrys-thermo/)
+- [Problem Sets (LearnChemE)](notes/problem-sets/)
+
 ## Interactive tools (one repo each)
 
 Each tool repo holds the calculator as a standalone page, a README written for both engineers and their AI assistants (method, sources, validation, limits), and the project files behind it.
